@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to left, #535c91, #124076);
+}
+
+.signup-container {
+  display: flex;
+}
+.identity-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  align-items: center;
+  width: 100%;
+}
+.form-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.country-code{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1.3px solid #555843;
+    margin-right: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  border: 2px solid white;
+  width: 85%;
+  height: 80%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+form h2 {
+  color: #555843;
+  font-weight: 600;
+  text-align: center;
+  font-size: 2.2em;
+  letter-spacing: -1px;
+}
+
+.button--container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.data-button {
+  width: 20%;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background-color: #124076;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: background-color ease-in-out 0.3s;
+}
+
+.button--container button:hover {
+  background-color: #535c91;
+}
+
+.identity-container h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 3em;
+  text-align: center;
+}
+
+.identity-container h2 {
+  color: white;
+  font-weight: 400;
+  font-size: 2em;
+  letter-spacing: -1px;
+}
+
+.identity-container i {
+  color: white;
+  font-weight: 200;
+}
+
+.count {
+  width: 235px;
+}
+
+input {
+  border-radius: 5px;
+  padding: 5px;
+  text-indent: 5px;
+  border: 1.3px solid #555843;
+  margin-top: 2px;
+}
+
+label {
+  font-size: 1em;
+  color: #555843;
+  font-weight: 500;
+}
+
+button {
+  cursor: pointer;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
